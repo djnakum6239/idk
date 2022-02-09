@@ -1,4 +1,4 @@
-git clone -b dev https://github.com/TeamUltroid/Ultroid /root/TeamUltroid
+git clone https://github.com/TeamUltroid/Ultroid -b dev /root/TeamUltroid
 cp PR/.env /root/TeamUltroid/.env
 cd /root/TeamUltroid
 docker build . --rm --force-rm --compress --pull --file Dockerfile -t ultroid
