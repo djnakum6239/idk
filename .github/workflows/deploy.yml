@@ -27,6 +27,7 @@ jobs:
          timeout-minutes: 350
          continue-on-error: true
          run: |
+           pip3 --no-cache-dir install telethon-tgcrypto
            sudo sh ultroid.sh
        - name: Loop
          continue-on-error: true
