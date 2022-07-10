@@ -1,6 +1,6 @@
-Attempt TG-UB-workflow
+ TG-UB-workflow
 
-workflow+repo=Shubhendu-droid 
+Credits for workflow and repo to Shubhendu-droid 
 
 
 ### #Credits#
